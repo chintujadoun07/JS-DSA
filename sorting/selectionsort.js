@@ -1,4 +1,4 @@
-let arr=[4,3,5,6,2,5,1]
+let arr=[22,55,12,87,2,5,12]
 function selectionSort(arr){
     for(let i=0;i<arr.length-1;i++){
         let min=i;
@@ -17,14 +17,6 @@ function selectionSort(arr){
     }
 }
 
-
-function swap(a,b){
-    let a=null;
-    let b=null;
-    let temp;
-    
-
-}
 
 
 selectionSort(arr)
